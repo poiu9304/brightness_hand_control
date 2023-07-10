@@ -41,8 +41,6 @@ while True:
 				# store height and width of image
 				height, width, color_channels = frame.shape
 
-				# calculate and append x, y coordinates
-				# of handmarks from image(frame) to lmList
 				x, y = int(landmarks.x*width), int(landmarks.y*height)
 				landmarkList.append([_id, x, y])
 
@@ -72,8 +70,7 @@ while True:
 		# set brightness
 		sbc.set_brightness(int(b_level))
 
-	# Display Video and when 'q' is entered, destroy
-	# the window
+	# Display Video and when 'q' is entered, exit out the window
 	cv2.imshow('Image', frame)
 	if cv2.waitKey(1) & 0xff == ord('q'):
 		break
