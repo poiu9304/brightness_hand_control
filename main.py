@@ -28,7 +28,7 @@ while True:
 
 	# Convert BGR image to RGB image
 	frameRGB = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-	
+
 	# Process the RGB image
 	Process = hands.process(frameRGB)
 
@@ -65,14 +65,8 @@ while True:
 		# draw line from tip of thumb to tip of index finger
 		cv2.line(frame, (x_1, y_1), (x_2, y_2), (0, 255, 0), 3)
 
-		# calculate square root of the sum of
-		# squares of the specified arguments.
 		L = hypot(x_2-x_1, y_2-y_1)
 
-		# 1-D linear interpolant to a function
-		# with given discrete data points
-		# (Hand range 15 - 220, Brightness
-		# range 0 - 100), evaluated at length.
 		b_level = np.interp(L, [15, 220], [0, 100])
 
 		# set brightness
