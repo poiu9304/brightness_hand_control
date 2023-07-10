@@ -28,7 +28,7 @@ while True:
 
 	# Convert BGR image to RGB image
 	frameRGB = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-
+	
 	# Process the RGB image
 	Process = hands.process(frameRGB)
 
