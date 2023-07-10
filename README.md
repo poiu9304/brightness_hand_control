@@ -8,7 +8,7 @@ Hello! My name is Kirren. For my NVIDIA project usign the jetson nano, I have cr
 * '[screen-brightness-control](https://pypi.org/project/screen-brightness-control/)'
 * '[Mediapipe](https://developers.google.com/mediapipe)'
 * '[Control Vision](https://pypi.org/project/opencv-python/)'
-* '[Numpy](https://pypi.org/project/opencv-python/)'
+* '[Numpy](https://www.geeksforgeeks.org/numpy-in-python-set-1-introduction/)'
 
 You can dowload them using these command in the termial:
 ```
