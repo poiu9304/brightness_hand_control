@@ -1,8 +1,6 @@
 # Brightness Hand Control
 
-Hello! My name is Kirren. For my NVIDIA project usign the jetson nano, I have created a brightness ontrol system with your hand. Curretnyl my monitor can be very hard to adjust the screen brighntness without messin up other settings. So to counter this I have decided to build this.
-![project.png]("C:\Users\kirre\OneDrive\画像\Screenshots\project.png")
-
+Hello! My name is Kirren. For my NVIDIA project usign the jetson nano, I have created a brightness control system with your hand. Currently my monitor can be very hard to adjust the screen brighntness without creating other problems and changing other settings. So to counter this I have decided to build this.
 
 ## Running the program
 1. This program works by installing a couple python module:
@@ -10,7 +8,7 @@ Hello! My name is Kirren. For my NVIDIA project usign the jetson nano, I have cr
 * '[screen-brightness-control](https://pypi.org/project/screen-brightness-control/)'
 * '[Mediapipe](https://developers.google.com/mediapipe)'
 * '[Control Vision](https://pypi.org/project/opencv-python/)'
-* '[Numpy](https://pypi.org/project/opencv-python/)'
+* '[Numpy](https://www.geeksforgeeks.org/numpy-in-python-set-1-introduction/)'
 
 You can dowload them using these command in the termial:
 ```
@@ -20,6 +18,8 @@ $ pip install screen-brightness-control
 $ pip install numpy
 ```
 
-2. 
-## Guide
+2. Copy the code from main.py and run it.
+
+
+## Video Guide
 Demonstration video
